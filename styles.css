@@ -7,20 +7,25 @@ header {
   display: flex;
   justify-content: center;
   background-color: mediumturquoise;
+  box-shadow: 2px 2px 3px lightgray;
+  border-radius: 20px;
 }
 
 section {
-  background-color: aliceblue;
-  height: 130px;
-  width: 500px;
-  border-radius: 5px;
-}
-
-h4 {
-  text-align: center;
-}
-
-h3 {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(203, 230, 236);
+  border: solid 0.5px rgb(235, 240, 242);
+  margin: 20px;
+  padding: 20px;
+  height: 200px;
+  width: 350px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px lightslategray;
+}
+
+button-style {
+  background-color: rgb(47, 47, 98);
 }
